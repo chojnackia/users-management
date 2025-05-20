@@ -1,0 +1,26 @@
+{
+  "name": "@user-management/config",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.ts\""
+  },
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5.7.3",
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
